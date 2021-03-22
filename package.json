@@ -1,0 +1,35 @@
+{
+  "name": "my-trips-infrastructure",
+  "version": "1.0.00",
+  "description": "Infrastructure as a service using serverless framework in AWS for the MyTrips application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sls deploy --noDeploy",
+    "deploy": "sls deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abinemmanuel/my-trips-infrastructure.git"
+  },
+  "keywords": [
+    "Infrastructure",
+    "serverless",
+    "AWS",
+    "Microservice",
+    "IaC",
+    "cloud",
+    "dynamoDB",
+    "storage",
+    "scalable",
+    "Fully managed"
+  ],
+  "author": "abinemmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abinemmanuel/my-trips-infrastructure/issues"
+  },
+  "homepage": "https://github.com/abinemmanuel/my-trips-infrastructure#readme",
+  "devDependencies": {
+    "serverless-deployment-bucket": "^1.4.0"
+  }
+}
